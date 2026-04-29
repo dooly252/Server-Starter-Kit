@@ -1,0 +1,12 @@
+{
+  "name": "add-component",
+  "description": "새로운 React 함수형 컴포넌트를 생성합니다.",
+  "arguments": [
+    {
+      "name": "componentName",
+      "description": "생성할 컴포넌트의 이름",
+      "hint": "예: Button, Card, Header"
+    }
+  ],
+  "run": "bash .claude/commands/add-component.sh $1"
+}
